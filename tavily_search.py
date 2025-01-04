@@ -1,7 +1,7 @@
 from tavily import TavilyClient
 
 def agentic_search(query):
-    client = TavilyClient(api_key="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")
+    client = TavilyClient(api_key="")
     
     # Perform an analysis-focused search
     results = client.search(
